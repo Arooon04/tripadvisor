@@ -4,9 +4,133 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tripadvisor Clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <h1>Welcome to my Tripadvisor Project</h1>
+    <nav id="desktop">
+        <img src="assets/images/2651d377.svg">
+        <div class="menu">
+            <ul>
+                <li class="imhere">Plan with AI</li>
+                <li>Discover</li>
+                <li>Review</li>
+                <li>More</li>
+                <li class="currency"><img src="assets/images/curr.svg"><span>|</span>INR</li>
+                <li class="sign-in">Sign In</li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="mobile">
+        <img src="assets/images/menu.png">
+        <img class="logo" src="assets/images/2651d377.svg">
+        <img src="assets/images/favourite.png">
+        <img src="assets/images/user.png">
+        <div class="menu-mobile" style="display:none;">
+            <ul>
+                <li class="imhere">Plan with AI</li>
+                <li>Discover</li>
+                <li>Review</li>
+                <li>More</li>
+                <li class="currency"><img src="assets/images/curr.svg"><span>|</span>INR</li>
+                <li class="sign-in">Sign In</li>
+            </ul>
+        </div>
+    </nav>
+    <container>
+        <header>
+            <h1>Where to?</h1>
+            <form>
+                <div class="nav__search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input placeholder="Places to go, things to do, hotels.." type="text">
+                    <input type="button" value="Ask AI">
+                    <input type="submit" value="Search">
+                </div>                
+            </form>
+            <div class="banner-container">
+                <img src="assets/images/caption (1).jpeg">
+                <div class="banner-container__rightsec">
+                    <h2>Find things to do for everything you're into</h2>
+                    <p>Browse 400,000+ experiences and book with us.</p>
+                    <div>Book now</div>
+                </div>
+            </div>
+        </header>
+        <div class="interest">
+            <h3>Find things to do by interest</h3>
+            <p>Whatever you're into, we've got  it</p>
+            <div class="interest__scrollcontent">
+                <div><img src="assets/images/caption (7).jpeg"><p>Outdoors</p></div>
+                <div><img src="assets/images/caption (10).jpeg"><p>Food</p></div>
+                <div><img src="assets/images/caption (12).jpeg"><p>Culture</p></div>
+                <div><img src="assets/images/caption (8).jpeg"><p>Water</p></div>
+            </div>
+        </div>
+        <div class="must-do">
+            <h3>Explore experiences near Chennai (Madras)</h3>
+            <p>Can't-miss picks near you</p>
+            <div class="must-do__scrollcontent">
+                <div>
+                    <img src="assets/images/caption (16).jpeg">
+                    <p>Mahabalipuram Private tour from Chennai by car with guide</p>                    
+                </div>
+                <div>
+                    <img src="assets/images/caption (13).jpeg">
+                    <p>Chennai Market Tour & Cooking Class in a Local Home with Meena</p>
+                </div>
+                <div>
+                    <img src="assets/images/caption (14).jpeg">
+                    <p>Chennai tour in car with guide-winner of traveller's choice award</p>
+                </div>
+                <div>
+                    <img src="assets/images/caption (15).jpeg">
+                    <p>Chennai, Guided Birding And Birding Photo Trip With Spot Scope</p>
+                </div>
+            </div>
+        </div>
+        <div class="short-banner">            
+            <img src="assets/images/caption (23).jpeg">
+                <div class="short-banner__rightsec">
+                    <h2>Show some love to small businesses</h2>
+                    <p>Donate to Kiva.org today to provide loans to local entrepreneurs and the Tripadvisor Foundation will match it, up to $150,000 USD collectively. Terms apply.</p>
+                    <div>Book now</div>
+                </div>
+        </div>
+    </container>
+    <div class="traveller-choice"></div>
+    <footer>
+        <section class="section1">
+            <ul>
+                <li class="mainhead">About Tripadvisor</li>
+                <li>About Us</li>
+                <li>Press</li>
+                <li>Resources and Policies</li>
+                <li>Careers</li>
+                <li>Trust & Safety</li>
+                <li>Contact Us</li>
+                <li>Tripadvisor Technology Blog</li>
+            </ul>
+            <ul>
+                <li class="mainhead">Explore</li>
+                <li>Write a review</li>
+                <li>Add a Place</li>
+                <li>Join</li>
+                <li>Traveller's Choice</li>
+                <li>Help Center</li>
+                <li>Travel Stories</li>
+            </ul>
+            <ul>
+                <li class="mainhead">Do Business With Us</li>
+                <li>Owenrs & DMO</li>
+                <li>Business Advantage</li>
+                <li>Sponsored Placements</li>
+                <li>Advertise with Us</li>
+            </ul>
+        </section>
+    </footer>
 </body>
 </html>
